@@ -9,8 +9,8 @@ import java.io.File;
 public class DashboardPage extends GoogleAccountPage{
 
     // Search box
-    protected final By searchBoxBy = By.xpath("//input[@class='gb_gf']");
-    protected final By searchButtonBy = By.xpath("//button[@class='gb_pf gb_qf']");
+    protected final By searchBoxBy = By.xpath("//input[@name='q']");
+    protected final By searchButtonBy = By.xpath("//button[@aria-label='Search Google Drive']");
 
     // Search message
     protected final By searchMessageBy = By.xpath("//span[@role='presentation']|//div[@role='heading'][@class='Q62IOe']");
